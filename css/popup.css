@@ -1,0 +1,152 @@
+body {
+  font-family: Verdana;
+}
+
+#popup {
+  min-width: 770px;
+  margin: 12px;
+  float:left;
+}
+ul li {
+  list-style-type: none;
+  display: block;
+}
+
+article.my-row {
+  display: table;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+article.my-row > div{
+  display: table-cell;
+}
+
+article {
+  border-top: 0;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 1px 4px rgba(40,51,56,.5);
+  color: #37454d;
+}
+
+.image img{
+  height:140px;
+  width:160px;
+  -webkit-box-shadow: 0px 0px 10px 0px #4d4d4d;
+  -moz-box-shadow: 0px 0px 10px 0px #4d4d4d;
+  box-shadow: 0px 0px 10px 0px #4d4d4d;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  border:solid white 1px;
+  float:left;
+  vertical-align: middle;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.details {
+  vertical-align: top;
+  width: 280px;
+}
+.details h3 {
+  float: left;
+  color: #1088ad;
+  font-size: 18px;
+  width: 160px;
+}
+
+.flags {
+  border-radius: 2px;
+  border: 2px solid #73AD21;
+  color: #73AD21;
+  padding: 3px;
+  width: 5em;
+  text-align: center;
+}
+
+li.location {
+  font-size: 14px;
+  color: green;
+  margin-top: 10px;
+
+}
+li.review {
+  margin-top:10px;
+  font-size: 14px;
+  color: crimson;
+  margin-bottom: 10px;
+}
+
+.affiliates {
+  vertical-align: middle;
+  float: left;
+  margin-right: 25px;
+}
+.affiliates li {
+  padding: 5px;
+  border: #20a09e 1px solid;
+  width: 100px;
+  margin: 5px;
+}
+
+.affiliates li a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.best_deal {
+  vertical-align: middle;
+  width: 200px;
+  line-height: 30px;
+}
+.best_deal a {
+  text-decoration: none;
+  width: 200px;
+  color: #1088ad;
+  font-size: 14px;
+  font-weight: bold;
+}
+.best_deal .percent {
+  background-color: crimson;
+  float: right;
+  width: 50px;
+  height: 20px;
+  border-radius: 3px;
+  color: white;
+  border: 2px solid crimson;
+  margin-right: 10px;
+}
+.best_deal s {
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.best_price {
+  font-size: 16px;
+  color: #73AD21;
+}
+.best_deal .button {
+  width: 140px;
+  border-radius: 1px;
+  color: white;
+  border: 2px solid #1088ad;
+  border-bottom-color: cadetblue;
+  border-right-color: cadetblue;
+  background: #1088ad;
+  height: 30px;
+  padding: 3px;
+  text-align: center;
+  font-size: 16px;
+}
+li.stars {
+  color: #FFD700;
+  width: 51px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
